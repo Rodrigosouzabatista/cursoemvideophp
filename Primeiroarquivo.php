@@ -15,7 +15,7 @@
 <body>
 	<h1>Testando o PHP</h1>
 	<?php
-		echo"<h2>Olá,<br>Mundo!</h2>"
+		echo"<h2>Olá,<br>Mundão!</h2>"
 	?>
 </body>
 </html>
