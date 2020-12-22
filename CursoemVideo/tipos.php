@@ -8,7 +8,7 @@
 <body>
 	<div>
 	<?php
-		$idade = 36;
+		$idade = 33;
 		$nome = "Rodrigo";
 		echo "$nome tem $idade anos"
 	
