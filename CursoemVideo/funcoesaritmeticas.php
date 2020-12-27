@@ -24,7 +24,7 @@
 		echo "</br> A raiz de $v1 é ".sqrt($v1);
 		echo "</br> O valor de $v2 arendondado é ". round($v2);
 		echo "</br> O valor inteiro de $v2 é ".intval($v2);
-		echo "<br>O Valor de $v1 em moeda é R$ ".number_format($v1,2,",",".");
+		echo "<br>O Valor de $v1 em moeda é R$".number_format($v1,2,",",".");
 		
 	?>
 		</div>
