@@ -32,18 +32,19 @@ $a > $b  ?    $a      :  $b
 $maior = $a > $b  ?    $a      :  $b
 ----------------------------------------------------------------------------------------------------------------------------------------
 ::::::::::::::::::::::::::
-::     Exercicio 01     ::
+::     Exercicio 02     ::
 ::::::::::::::::::::::::::
 
-Permitir que o usuário escolha entre somar e multiplicar dois números.
+Igual Indêntico.
 
 */
-		$n1 = $_GET["a"];
-		$n2 = $_GET["b"];
-		$tipo = $_GET["op"];
-		echo "Os numeros escolhidos foram $n1 e $n2";
-		$r = ($tipo == "s")? $n1+$n2 : $n1*$n2;
-		echo "<br/>O valor é $r";
+		$a = 3;
+		$b = "3";
+		$iguais = ($a==$b)?'Sim':'Não';
+		$identicas =($a===$b)?'Sim':'Não';
+		echo "As variáveis A e B São iguais: $iguais";
+		echo "<br/>As variáveis A e B São idênticas: $identicas";
+	
 	
 		?>
 	
