@@ -47,7 +47,6 @@
 Mostrar se um eleitor é obrigado a votar ou não.
 sendo que com 17 anos o voto é opcional e acima de 65 anos também.
 
-ela vai ficar nervosa por que eu nao fui falar com a beatriz e vai começar a brigar comigo.9mais na verdade ela nao consegue dar atenção para a Beatriz
 
 */
 	    $datanasc =$_GET["nasc"];
