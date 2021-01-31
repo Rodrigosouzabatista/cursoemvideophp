@@ -8,15 +8,10 @@
 <body>
 <div>
     <?php
-        $v[0] = 4;
-		$v[1] = 8;
-		$v[2] = 3;
-	//print_r($v);
-	$v2 = array(3,7,6,2,1,9);
-	print_r($v2);
-	//o print_r é muito bom para fazer periodos de teste.
-	//var_dump($v2);
-	//var_export($v2);
+	$t= "Aqui temos um texto gigante criado pelo PHP e vai mostrar o funcionamento da funcao wordwrap";
+	$r = wordwrap($t,20,"<br/>\n",false);
+	echo "$r";
+        
     ?>
 </div>
 </body>
