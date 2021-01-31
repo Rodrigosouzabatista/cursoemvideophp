@@ -8,14 +8,11 @@
 <body>
 <div>
     <?php
-	function teste (&$x){
-		$x+=2;
-		echo "O Valor de X é $x<br/>";
-	}
-	$a=3;
-	teste($a);
-	echo "O Valor de A é $a";
-        
+	include "funcoes.php";
+        echo "<h1>Testando as novas funcões</h1>";
+	Ola();
+	mostraValor(4);
+	echo "<h2>Finalizando o Programa...</h2>";
     ?>
 </div>
 </body>
