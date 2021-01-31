@@ -8,7 +8,7 @@
 <body>
 <div>
     <?php
-	include "funcoes.php";
+	include"funcoes.php";
         echo "<h1>Testando as novas funcões</h1>";
 	Ola();
 	mostraValor(4);
